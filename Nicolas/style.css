@@ -1,0 +1,79 @@
+@import "https://fonts.googleapis.com/css?family=Julee|Quicksand";
+body {
+  background-color: #f4fff9; }
+
+header {
+  font-size: 500%;
+  color: #f4fff9;
+  background-color: #025185;
+  text-align: center; }
+
+header p {
+  font-family: Julee; }
+
+p {
+  font-family: Quicksand; }
+
+.wizard {
+  background-color: #f4fff9;
+  color: #f4fff9; }
+
+.magPres {
+  background-color: #000e2e;
+  color: #f4fff9;
+  font-size: 140%;
+  padding: 15px; }
+
+.commercial {
+  background-color: #f4fff9; }
+
+.commercialPres {
+  background-color: #025185;
+  font-size: 140%;
+  padding: 15px;
+  color: #f4fff9; }
+
+.sailor {
+  background-color: #f4fff9;
+  color: black; }
+
+.sailorPres {
+  background-color: #c2c8d1;
+  color: black;
+  font-size: 140%;
+  padding: 15px; }
+
+.boss {
+  background-color: #f4fff9; }
+
+.bossPres {
+  background-color: #00b9d2;
+  font-size: 140%;
+  padding: 15px;
+  color: #f4fff9; }
+
+.comptable {
+  background-color: #f4fff9; }
+
+.comptablePres {
+  background-color: #000e2e;
+  font-size: 140%;
+  padding: 15px;
+  color: #f4fff9; }
+
+a {
+  background-color: #42DCA3;
+  transition: background-color 2s, transform 2s; }
+
+a:hover {
+  background-color: #1d9b6c;
+  transform: rotate(360deg); }
+
+#persos {
+  font-family: Julee;
+  font-size: 250%; }
+
+.nicolas {
+  color: black; }
+
+/*# sourceMappingURL=style.css.map */

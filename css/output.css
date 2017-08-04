@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+pre {
+  tab-size: 8; }
+
+nav {
+  position: absolute;
+  top: 0;
+  z-index: 5;
+  font-family: 'Quicksand', sans-serif; }
+
+.navbar-nav {
+  width: 100%;
+  text-align: center; }
+  .navbar-nav > li {
+    float: none;
+    display: inline-block; }
+
+.navbar-brand {
+  font-size: 60px;
+  text-align: center;
+  float: none;
+  display: inline-block; }
+
+.navbar-nav a {
+  color: #fff;
+  display: flex;
+  justify-content: center; }
+
+.navbar-nav a:hover {
+  background-color: transparent !important; }
+
+.navbar-container {
+  padding: 20px 0 20px 0; }
+
+.navbar.navbar-fixed-top.fixed-theme {
+  background-color: #000000;
+  border-color: #000000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8); }
+
+.navbar-brand.fixed-theme {
+  font-size: 18px; }
+
+.navbar-container.fixed-theme {
+  padding: 0; }
+
+.navbar-brand.fixed-theme,
+.navbar-container.fixed-theme,
+.navbar.navbar-fixed-top.fixed-theme,
+.navbar-brand,
+.navbar-container {
+  transition: 0.8s;
+  -webkit-transition: 0.8s; }
+
+.video-container {
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  overflow: hidden; }
+
+video {
+  z-index: -1;
+  width: 100%; }
+
+.separation {
+  padding: 2.5em;
+  background-color: #000000;
+  margin-top: -5%; }
+
+.separation > p {
+  text-align: center;
+  color: grey;
+  font-size: 3em;
+  margin-bottom: 3px;
+  font-family: 'Quicksand', sans-serif; }
+
+.separation a {
+  color: #fff;
+  text-decoration: none; }
+
+.montage {
+  text-align: center; }
+
+.footer {
+  margin-top: 10px;
+  bottom: 0;
+  width: 100%;
+  height: 130px;
+  background-color: #000000;
+  text-align: center; }
+
+#slidy-container {
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto; }
+
+.container {
+  color: #fff;
+  width: 100%; }
+
+.fa-twitter {
+  color: #4099FF; }
+
+.fa-facebook {
+  color: #3B5998; }
+
+.fa-youtube-play {
+  color: #e52d27; }
+
+.fa-rss {
+  color: #FF6600; }
+
+.fa-vine {
+  color: #00a478; }
+
+.fa-flickr {
+  color: #ff0084; }
+
+.fa-twitch {
+  color: #6441A5; }
+
+.fa-linkedin {
+  color: #007bb6; }
+
+.fa {
+  margin-top: 3%;
+  opacity: 0.7;
+  transition: 1s;
+  -webkit-transition: 1s; }
+
+.fa:hover {
+  transition: 1s;
+  animation-name: slidein; }
+
+@keyframes slidein {
+  0% {
+    color: #ff0000; }
+  10% {
+    color: #ff8000; }
+  20% {
+    color: #ffff00; }
+  30% {
+    color: #80ff00; }
+  40% {
+    color: #00ff00; }
+  50% {
+    color: #00ff80; }
+  60% {
+    color: #00ffff; }
+  70% {
+    color: #0080ff; }
+  80% {
+    color: #0000ff; }
+  90% {
+    color: #8000ff; }
+  100% {
+    color: #ff0080; } }
+
+/*# sourceMappingURL=output.css.map */

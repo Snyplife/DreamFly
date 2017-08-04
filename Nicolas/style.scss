@@ -1,0 +1,84 @@
+@import "https://fonts.googleapis.com/css?family=Julee|Quicksand";
+
+$turquoise: rgb(0,185,210);
+$blue: rgb(2,81,133);
+$white: rgb(244,255,249);
+$grey: rgb(194,200,209);
+$darkblue: rgb(0,14,46);
+$typoNorm: Quicksand-Regular;
+$typoFant: Julee;
+$margImage: 15px;
+$size: 140%;
+$padding: 15px;
+
+body {background-color: $white;}
+header {
+  font-size: 500%;
+  color: $white;
+  background-color: $blue;
+  text-align: center;
+}
+header p {font-family: $typoFant;}
+p {
+  font-family: $typoNorm;
+}
+.wizard {
+  background-color: $white;
+  color: $white;
+}
+.magPres {
+  background-color: $darkblue;
+  color: $white;
+  font-size: $size;
+  padding: $padding;
+}
+.commercial {
+  background-color: $white;
+}
+.commercialPres {
+  background-color: $blue;
+font-size: $size;
+padding: $padding;
+color: $white;
+}
+.sailor{
+background-color: $white;
+color: black;
+}
+.sailorPres {
+  background-color: $grey;
+  color: black;
+  font-size: $size;
+  padding: $padding;
+}
+.boss {
+  background-color: $white;
+}
+.bossPres {
+  background-color: $turquoise;
+  font-size: $size;
+  padding: $padding;
+  color: $white;
+}
+.comptable {
+  background-color: $white;
+}
+.comptablePres {
+  background-color: $darkblue;
+  font-size: $size;
+  padding: $padding;
+  color: $white;
+}
+a {
+background-color: #42DCA3;
+transition: background-color 2s, transform 2s;
+}
+a:hover {
+  background-color: #1d9b6c;
+  transform: rotate(360deg);
+}
+#persos {
+  font-family : $typoFant;
+  font-size: 250%;
+}
+.nicolas {color: black;}
